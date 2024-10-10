@@ -45,14 +45,6 @@ public class Radio {
         } else this.setSoundVolume(this.getSoundVolume() - 1);
     }
 
-    @Override
-    public String toString() {
-        return "Radio{" +
-                "currentRadioStation=" + currentRadioStation +
-                ", soundVolume=" + soundVolume +
-                '}';
-    }
-
     public int getCurrentRadioStation() {
         return currentRadioStation;
     }
